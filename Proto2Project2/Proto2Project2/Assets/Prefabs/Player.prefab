@@ -989,6 +989,7 @@ GameObject:
   - component: {fileID: 6345328103422974579}
   - component: {fileID: 6345328103413429651}
   - component: {fileID: 6345328103923132510}
+  - component: {fileID: -4498481454461822287}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1052,6 +1053,19 @@ MonoBehaviour:
   leftLimit: -24
   rightLimit: 24
   projectilePrefab: {fileID: 6350246768968610212, guid: 5453a76d6fba1e444a7ece47c9d68df2, type: 3}
+--- !u!65 &-4498481454461822287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6345328103422936659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &6345328103422936663
 GameObject:
   m_ObjectHideFlags: 0
